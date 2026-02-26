@@ -14,6 +14,35 @@
 
 
 
+## Auto-sklearn
+
+### Installing auto-sklearn
+* Linux
+    * pip 
+      ```bash
+        python3 -m venv autosklearn-env
+        source autosklearn-env/bin/activate   # activate
+        pip3 install auto-sklearn
+      ```
+      In order to check your installation, you can use:
+      ```bash
+        python3 -m pip show auto-sklearn      # show auto-sklearn version and location
+        python3 -m pip freeze                 # show all installed packages in the environment
+        python3 -c "import auto-sklearn; auto-sklearn.show_versions()"
+      ```
+    * conda 
+      ```bash
+      conda create --name autosklearn-env
+      conda activate autosklearn-env          # activate
+      conda install auto-sklearn
+      ```
+      In order to check your installation, you can use:
+      ```bash
+        conda list auto-sklearn               # show auto-sklearn version and location
+        python3 -c "import auto-sklearn; auto-sklearn.show_versions()"
+      ```
+
+
 ##
 
 ### My Other Awesome Lists
