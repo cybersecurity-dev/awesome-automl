@@ -17,7 +17,7 @@
 
 
 ## Auto-sklearn
-
+[Auto-sklearn](https://automl.github.io/auto-sklearn) is using the Python library scikit-learn which is a drop-in replacement for regular scikit-learn classifiers and regressors.
 ### Installing auto-sklearn
 * Linux
     * pip 
@@ -44,6 +44,8 @@
         python3 -c "import auto-sklearn; auto-sklearn.show_versions()"
       ```
 
+## Auto-PyTorch 
+[Auto-PyTorch](https://github.com/automl/Auto-PyTorch) is based on the deep learning framework PyTorch and jointly optimizes hyperparameters and the neural architecture.
 
 ##
 
