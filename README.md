@@ -1,6 +1,6 @@
 <div align="center">
 
-# **`Awesome`** [AutoML](https://www.automl.org/automl/) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# **`Awesome`** [Automated Machine Learning](https://wikipedia.org/wiki/Automated_machine_learning) (_[AutoML](https://www.automl.org/automl/)_) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 </div>
 
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
