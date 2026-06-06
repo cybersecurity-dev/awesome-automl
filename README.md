@@ -47,6 +47,9 @@
 ## Auto-PyTorch 
 [Auto-PyTorch](https://github.com/automl/Auto-PyTorch) is based on the deep learning framework PyTorch and jointly optimizes hyperparameters and the neural architecture.
 
+## AutoKeras
+[AutoKeras](https://github.com/keras-team/autokeras): An AutoML system based on Keras.
+
 ##
 
 ### My Other Awesome Lists
@@ -58,5 +61,8 @@ You can access the my other awesome lists [here](https://cyberthreatdefence.com/
 ### Contributors
 [Thanks goes to these contributors](https://github.com/cybersecurity-dev/awesome-automl/graphs/contributors)!
 
-[🔼 Back to top](#awesome-automl-)
+### License
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0)
+
+[🔼 Back to top](#awesome-automated-machine-learning-automl-)
 
