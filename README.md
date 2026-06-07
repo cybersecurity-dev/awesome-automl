@@ -20,7 +20,7 @@
 [Auto-sklearn](https://automl.github.io/auto-sklearn) is using the Python library scikit-learn which is a drop-in replacement for regular scikit-learn classifiers and regressors.
 ### Installing auto-sklearn
 * Linux
-    * pip 
+    * `pip`
       ```bash
         python3 -m venv autosklearn-env
         source autosklearn-env/bin/activate   # activate
@@ -32,7 +32,7 @@
         python3 -m pip freeze                 # show all installed packages in the environment
         python3 -c "import auto-sklearn; auto-sklearn.show_versions()"
       ```
-    * conda 
+    * `conda` 
       ```bash
       conda create --name autosklearn-env
       conda activate autosklearn-env          # activate
@@ -49,6 +49,28 @@
 
 ## AutoKeras
 [AutoKeras](https://github.com/keras-team/autokeras): An AutoML system based on Keras.
+
+AutoKeras is based on Keras so recommend using the PyTorch backend. Please follow this [page](https://github.com/cybersecurity-dev/awesome-pytorch#installation-steps) to install PyTorch.
+
+* **`Linux`**
+    * `pip`
+      ```bash
+        python3 -m venv autokeras-env
+        source autokeras-env/bin/activate   # activate
+        pip3 install autokeras
+      ```
+      In order to check your installation, you can use:
+      ```bash
+      ```
+    * `conda`
+      ```bash
+      conda create --name autokeras-env
+      conda activate autokeras-env          # activate
+      ```
+      In order to check your installation, you can use:
+      ```bash
+      ```
+
 
 ##
 
