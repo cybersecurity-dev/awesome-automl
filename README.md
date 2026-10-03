@@ -1,5 +1,56 @@
 <div align="center">
 
+```mermaid
+mindmap
+  root((AutoML))
+
+    Data Processing
+      Cleaning
+      Missing Values
+      Encoding
+      Scaling
+
+    Feature Engineering
+      Selection
+      Extraction
+      Generation
+
+    Model Selection
+      SVM
+      Random Forest
+      XGBoost
+      Neural Networks
+
+    Hyperparameter Optimization
+      Grid Search
+      Random Search
+      Bayesian Optimization
+      Evolutionary Search
+
+    Neural Architecture Search
+      CNN Search
+      RNN Search
+      Transformer Search
+
+    Ensemble Learning
+      Bagging
+      Boosting
+      Stacking
+
+    Deployment
+      Packaging
+      Monitoring
+      MLOps
+
+    Applications
+      Healthcare
+      Finance
+      Cybersecurity
+      IoT
+      Computer Vision
+      NLP
+```
+
 # **`Awesome`** [Automated Machine Learning](https://wikipedia.org/wiki/Automated_machine_learning) (_[AutoML](https://www.automl.org/automl/)_) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 </div>
 
@@ -14,10 +65,69 @@
     <a href="https://cyberthreatdefence.com/my_awesome_lists"><img height="20" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/blog.svg" alt="My Awesome Lists"></a>
 </p>
 
+```mermaid
+graph TD
 
+    A[AutoML]
 
-## Auto-sklearn
-[Auto-sklearn](https://automl.github.io/auto-sklearn) is using the Python library scikit-learn which is a drop-in replacement for regular scikit-learn classifiers and regressors.
+    A --> B[Automated Data Pipeline]
+    A --> C[Automated Feature Engineering]
+    A --> D[Automated Modeling]
+    A --> E[Automated Optimization]
+    A --> F[Automated Deployment]
+
+    B --> B1[Preprocessing]
+    B --> B2[Data Cleaning]
+    B --> B3[Feature Encoding]
+
+    C --> C1[Selection]
+    C --> C2[Extraction]
+    C --> C3[Synthesis]
+
+    D --> D1[Traditional ML]
+    D --> D2[Deep Learning]
+    D --> D3[Ensemble Learning]
+
+    D1 --> D11[SVM]
+    D1 --> D12[Random Forest]
+    D1 --> D13[XGBoost]
+
+    D2 --> D21[CNN]
+    D2 --> D22[RNN]
+    D2 --> D23[Transformer]
+
+    E --> E1[HPO]
+    E --> E2[NAS]
+    E --> E3[Meta Learning]
+
+    E1 --> GridSearch
+    E1 --> BayesianOptimization
+    E1 --> RandomSearch
+
+    E2 --> RLNAS
+    E2 --> EvolutionNAS
+    E2 --> DifferentiableNAS
+
+    E3 --> FewShotLearning
+    E3 --> TransferLearning
+
+    F --> F1[MLOps]
+    F --> F2[Model Monitoring]
+    F --> F3[Continuous Training]
+```
+
+## Classical AutoML
+```text
+└──┐
+   ├── Auto-WEKA
+   ├── Auto-Sklearn
+   ├── TPOT
+   └── H2O AutoML
+```
+
+### Auto-sklearn
+> [Auto-sklearn](https://automl.github.io/auto-sklearn) is using the Python library scikit-learn which is a drop-in replacement for regular scikit-learn classifiers and regressors.
+
 ### Installing auto-sklearn
 * Linux
     * `pip`
@@ -44,13 +154,22 @@
         python3 -c "import auto-sklearn; auto-sklearn.show_versions()"
       ```
 
+## Deep Learning AutoML
+```text
+└──┐
+   ├── AutoKeras
+   ├── AutoGluon
+   ├── NNI
+   └── Google AutoML
+```
 ## Auto-PyTorch 
-[Auto-PyTorch](https://github.com/automl/Auto-PyTorch) is based on the deep learning framework PyTorch and jointly optimizes hyperparameters and the neural architecture.
+> [Auto-PyTorch](https://github.com/automl/Auto-PyTorch) is based on the deep learning framework PyTorch and jointly optimizes hyperparameters and the neural architecture.
 
 ## AutoKeras
-[AutoKeras](https://github.com/keras-team/autokeras): An AutoML system based on Keras.
+> [AutoKeras](https://github.com/keras-team/autokeras): An AutoML system based on Keras.
+> AutoKeras is based on Keras so recommend using the PyTorch backend. Please follow this [page](https://github.com/cybersecurity-dev/awesome-pytorch#installation-steps) to install PyTorch.
 
-AutoKeras is based on Keras so recommend using the PyTorch backend. Please follow this [page](https://github.com/cybersecurity-dev/awesome-pytorch#installation-steps) to install PyTorch.
+### Installing AutoKeras
 
 * **`Linux`**
     * `pip`
@@ -71,7 +190,6 @@ AutoKeras is based on Keras so recommend using the PyTorch backend. Please follo
       ```bash
       ```
 
-
 ##
 
 ### My Other Awesome Lists
@@ -87,4 +205,3 @@ You can access the my other awesome lists [here](https://cyberthreatdefence.com/
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](http://creativecommons.org/publicdomain/zero/1.0)
 
 [🔼 Back to top](#awesome-automated-machine-learning-automl-)
-
